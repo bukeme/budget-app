@@ -42,11 +42,13 @@ h1 {
     font-weight: 600;
 }
 
-.income-header {
+.income-header,
+.income {
     color: lawngreen;
 }
 
-.outcome-header {
+.outcome-header,
+.expense {
     color: tomato;
 }
 
@@ -109,10 +111,19 @@ li {
     font-size: 20px;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.all .fa-edit {
+    display: none;
 }
 
 i {
     cursor: pointer;
+}
+
+li i:last-child {
+    margin-left: 5px;
 }
 
 input {
